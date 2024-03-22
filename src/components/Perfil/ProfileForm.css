@@ -1,0 +1,169 @@
+
+.profile-editor {
+  width: 50%;
+  height: 90vh;
+  /* padding: 20px; */
+  border: 1px solid #424242;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
+  background-color: #999999;
+ 
+  font-family: 'Arial', sans-serif;
+}
+.prteProfile1{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 60% 15%;
+  height: 80%;
+}
+.profile-photo {
+  border-radius: 50%;
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: 100px; /* Ajusta el tamaño según sea necesario */
+  object-fit: cover; /* Para mantener la relación de aspecto */
+}
+.botonProfile{
+  
+   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.botonEnviar{
+  width: 25%;
+  background-color: black;
+  color: white;
+  border: solid 2px black;
+
+}
+.botonEnviar:hover{
+  background-color: #443939;
+}
+.containerFotoProfile{
+  grid-column: 2/3;
+  grid-row: 2 / -3;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  border: solid 2px black;
+  width: 80%;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+  margin-left: 20px;
+
+}
+.infoProfile{
+  grid-column: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+  border: solid 2px black;
+  width: 70%;
+  margin-left: 10%;
+}
+.tituloEditar{
+  grid-column: 1/4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: black;
+}
+.input-cambiar{
+  display: none;
+}
+.option-cambiar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+
+}
+
+.option-cambiar label {
+  background-color: #d41c1c; /* Cambiar el color de fondo según tu preferencia */
+  color: black; /* Cambiar el color del texto según tu preferencia */
+  padding: 10px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  /* display: block; */
+  margin-top: 30px;
+}
+
+
+.form-group{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+  background-color: #999999;
+  border-radius: 8px;
+  padding: 10px;
+  border: solid 2px black;
+  width: 90%;
+}
+
+
+
+
+
+input[type="file"] {
+  padding: 5px;
+}
+
+
+
+
+.section-perfil{
+  background: linear-gradient(45deg, #7c7d7e, #000000, #444444, #7d7d7e);
+  height: 130vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.input-user{
+ width: 67%;
+ background-color: #999999;
+ border:none;
+ color: black;
+}
+.labelUser{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.input-email{
+  width: 90%;
+  background-color: #999999;
+  border: none;
+  color: black;
+}
+.labelCorreo{
+  width: 45%;
+  color: black;
+}
+.input-phoneNumber{
+  width: 85%;
+  background-color: #999999;
+  border: none;
+  color: black;
+}
+.labelPhone{
+  width: 40%;
+  color: black;
+}
